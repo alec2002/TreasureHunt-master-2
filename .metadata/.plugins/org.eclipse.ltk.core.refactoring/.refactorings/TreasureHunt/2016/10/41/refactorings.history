@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;UnlockChest&apos; to &apos;GameClass&apos;&#x0A;- Original project: &apos;TreasureHunt&apos;&#x0A;- Original element: &apos;UnlockChest&apos;&#x0A;- Renamed element: &apos;GameClass&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;UnlockChest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{UnlockChest.java[UnlockChest" matchStrategy="1" name="GameClass" qualified="false" references="true" similarDeclarations="false" stamp="1475446416437" textual="false" version="1.0"/>
+</session>
