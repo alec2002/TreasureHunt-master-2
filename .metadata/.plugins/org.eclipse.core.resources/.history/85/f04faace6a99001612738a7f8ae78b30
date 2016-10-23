@@ -1,0 +1,23 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Scanner;
+
+
+public class ArraySorting {
+	Scanner key = new Scanner(System.in);
+public static void main(String[] args) {
+	ArraySorting x = new ArraySorting();
+}
+ArraySorting(){
+	int [] array = new int[10];
+	
+	for (int i = 0; i < array.length; i++) {
+		array[i] = key.nextInt();
+	}
+	Arrays.sort(array);
+	for (int i = 0; i < array.length; i++) {
+		System.out.println(array[i]);
+	}
+}
+
+}
