@@ -13,7 +13,7 @@ public class testStuff {
 		
 		assertArrayEquals(arr2, sortArray(arr));
 	}
-	int sortArray(int[5]){
+	int sortArray(int[] arr = new){
 		Arrays.sort(arr);
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println(arr[i]);
