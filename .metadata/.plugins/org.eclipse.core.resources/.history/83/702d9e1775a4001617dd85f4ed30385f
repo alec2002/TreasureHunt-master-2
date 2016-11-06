@@ -1,0 +1,43 @@
+import java.util.ArrayList;
+import java.util.Random;
+
+
+public class ArrayListPuzzles {
+	Random r;
+public static void main(String[] args) {
+	ArrayListPuzzles x = new ArrayListPuzzles();
+}
+ArrayListPuzzles(){
+	r = new Random();
+	String[] food = {"bread", "Chicken", "Steak"};
+	ArrayList<String> jokes = new ArrayList<String>();
+	jokes.add("Wanna hear a joke about construction?");
+	jokes.add("Whats the difference between a ferrari and a ice chest full of dead babies?");
+	jokes.add("Why did the chicken cross the road?");
+	
+	ArrayList<String> jokesp = new ArrayList<String>();
+	jokesp.add("Oh wait i'm still working on it");
+	jokesp.add("I don't have a ferrari in my garage");
+	jokesp.add("To get to the other side");
+
+	int x = r.nextInt(3);
+	if (x == 0) {
+		System.out.println("Eat bread tonight");
+	}
+	if (x == 0) {
+		System.out.println(jokes.get(0) + "" + jokesp.get(0));
+	}
+	if (x == 1) {
+		System.out.println("Eat chicken tonight");
+	}
+	if (x == 1) {
+		System.out.println(jokes.get(1) + "" + jokesp.get(1));
+	}
+	if (x == 2) {
+		System.out.println("Eat Steak tonight");
+	}
+	if (x == 2) {
+		System.out.println(jokes.get(2) + "" + jokesp.get(2));
+	}
+}
+}

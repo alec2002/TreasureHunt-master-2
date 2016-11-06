@@ -49,10 +49,9 @@ int tt = r.nextInt(bande.size());
 System.out.println(band.get(t) + "" + bande.get(tt));
 
 ArrayList<Integer> xx = new ArrayList<Integer>();
-for (int i = 0; true; i++) {
+for (int i = 0; i < 1000000000; i++) {
 	xx.add(i+1);
-	System.out.println(i);
+	System.out.println(xx);
 }
-
 }
 }

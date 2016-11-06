@@ -1,0 +1,6 @@
+
+public class Ornament {
+void hang(){
+	System.out.println("Hanging a ornament");
+}
+}

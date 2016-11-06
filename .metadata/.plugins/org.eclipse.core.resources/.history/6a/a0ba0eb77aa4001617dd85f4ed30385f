@@ -1,0 +1,6 @@
+import java.util.ArrayList;
+
+
+public class boxofDecorations {
+ArrayList<Ornament> boxofDecorations = new ArrayList<Ornament>();
+}

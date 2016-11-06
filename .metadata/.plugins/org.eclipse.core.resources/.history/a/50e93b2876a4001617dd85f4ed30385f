@@ -32,27 +32,10 @@ ArrayListPuzzles(){
 	int g = r.nextInt(jokes.size());
 	System.out.println(jokes.get(g));
 	kb.next();
-	System.out.println(jokesp.get(g));
+	System.out.println(jokes.get(g));
 	
-ArrayList<String> band = new ArrayList<String>();
-band.add("Hairy");
-band.add("Smelly");
-band.add("Tall");
 
-ArrayList<String> bande = new ArrayList<String>();
-bande.add("gofer");
-bande.add("turtle");
-bande.add("baby");
 	
-int t = r.nextInt(band.size());
-int tt = r.nextInt(bande.size());
-System.out.println(band.get(t) + "" + bande.get(tt));
-
-ArrayList<Integer> xx = new ArrayList<Integer>();
-for (int i = 0; true; i++) {
-	xx.add(i+1);
-	System.out.println(i);
-}
-
+	
 }
 }

@@ -51,8 +51,7 @@ System.out.println(band.get(t) + "" + bande.get(tt));
 ArrayList<Integer> xx = new ArrayList<Integer>();
 for (int i = 0; true; i++) {
 	xx.add(i+1);
-	System.out.println(i);
+	
 }
-
 }
 }

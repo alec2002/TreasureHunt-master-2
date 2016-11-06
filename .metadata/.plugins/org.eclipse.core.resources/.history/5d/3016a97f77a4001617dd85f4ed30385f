@@ -40,19 +40,13 @@ band.add("Smelly");
 band.add("Tall");
 
 ArrayList<String> bande = new ArrayList<String>();
-bande.add("gofer");
-bande.add("turtle");
-bande.add("baby");
+band.add("gofer");
+band.add("turtle");
+band.add("baby");
 	
 int t = r.nextInt(band.size());
 int tt = r.nextInt(bande.size());
 System.out.println(band.get(t) + "" + bande.get(tt));
-
-ArrayList<Integer> xx = new ArrayList<Integer>();
-for (int i = 0; true; i++) {
-	xx.add(i+1);
-	System.out.println(i);
-}
 
 }
 }
