@@ -1,7 +1,0 @@
-
-public class Ornament {
-String hang(String Green){
-	return("Hanging a" + "" + Green + "" + "Ornament");
-	System.out.println("Hanging a" + "" + Green + "" + "Ornament");
-}
-}
