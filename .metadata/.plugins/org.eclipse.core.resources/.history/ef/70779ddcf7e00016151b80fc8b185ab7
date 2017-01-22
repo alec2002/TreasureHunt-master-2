@@ -1,0 +1,25 @@
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Algorithm {
+	static int num;
+public static void main(String[] args) {
+	Algorithm x = new Algorithm();
+}
+Algorithm(){
+	
+}
+static public int findBrokenEgg(List<String> c){
+	for (String e : c) {
+		num ++;
+		if (e.equals("Cracked")) {
+			return num;
+			
+		}
+	}
+	return num;
+	
+}
+}

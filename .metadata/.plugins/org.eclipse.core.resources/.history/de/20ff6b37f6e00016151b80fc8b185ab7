@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+
+
+public class Algorithm {
+	
+public static void main(String[] args) {
+	Algorithm x = new Algorithm();
+}
+Algorithm(){
+	
+}
+static public int findBrokenEgg(ArrayList<String> c){
+	for (String s : c) {
+		if (condition) {
+			
+		}
+	}
+}
+}
