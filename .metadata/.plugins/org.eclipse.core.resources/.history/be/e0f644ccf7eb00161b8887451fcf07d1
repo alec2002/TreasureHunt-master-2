@@ -69,48 +69,19 @@ static public Boolean containsSOS(List<String> c){
 	return false;
 }
 static public List<Double> sortScores(List<Double> c){
-	
+	ArrayList<Double> d = new ArrayList<Double>();
 	for (int i = 0; i < c.size(); i++) {
 		for (int j = i + 1; j < c.size(); j++) {
-			if (c.get(i) > c.get(j)) {
-				double t = c.get(i);
+			if (c.get(i) < c.get(j)) {
+				d.add(c.get(i));
 				c.set(i, c.get(j));
-				c.set(j, t);
-				
+				d.add(c.get(j));
 			}
 		}
 		
 	}
-
-	return c;
-	
+	return d;
 	}
-static public List sortDNA(List<String> us) {
-	
-for (int i = 0; i < us.size(); i++) {
-	for (int j = i + 1; j < us.size(); j++) {
-		if (us.get(i).length() > us.get(j).length()){
-			String t = us.get(i);
-			us.set(i, us.get(j));
-			us.set(j, t);
-		}
-	}
-}
-return us;
-}
-public static List<String> sortWords(List<String> words) {
-	for (int i = 0; i < words.size(); i++) {
-		for (int j = 0 + 1; j < words.size(); j++) {
-			if (words.get(i).compareTo(words.get(j)) < 0) {
-				String t = words.get(i);
-				words.set(i, words.get(j));
-				words.set(j, t);
-			}
-			
-		}
-	}
-	return words;
-}
 
 }
 

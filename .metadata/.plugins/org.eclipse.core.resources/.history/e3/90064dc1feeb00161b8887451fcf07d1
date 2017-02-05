@@ -109,7 +109,6 @@ public static List<String> sortWords(List<String> words) {
 			
 		}
 	}
-	return words;
 }
 
 }

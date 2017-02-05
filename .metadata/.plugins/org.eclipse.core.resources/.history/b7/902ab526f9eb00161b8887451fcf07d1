@@ -85,32 +85,6 @@ static public List<Double> sortScores(List<Double> c){
 	return c;
 	
 	}
-static public List sortDNA(List<String> us) {
-	
-for (int i = 0; i < us.size(); i++) {
-	for (int j = i + 1; j < us.size(); j++) {
-		if (us.get(i).length() > us.get(j).length()){
-			String t = us.get(i);
-			us.set(i, us.get(j));
-			us.set(j, t);
-		}
-	}
-}
-return us;
-}
-public static List<String> sortWords(List<String> words) {
-	for (int i = 0; i < words.size(); i++) {
-		for (int j = 0 + 1; j < words.size(); j++) {
-			if (words.get(i).compareTo(words.get(j)) < 0) {
-				String t = words.get(i);
-				words.set(i, words.get(j));
-				words.set(j, t);
-			}
-			
-		}
-	}
-	return words;
-}
 
 }
 
