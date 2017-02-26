@@ -1,0 +1,16 @@
+import java.util.HashMap;
+
+import javax.swing.JFrame;
+
+
+public class RosettaStone {
+	HashMap<String, String> rs = new HashMap<String,String>();
+	JFrame frame;
+public static void main(String[] args) {
+	RosettaStone x = new RosettaStone();
+	
+}
+RosettaStone(){
+	
+}
+}

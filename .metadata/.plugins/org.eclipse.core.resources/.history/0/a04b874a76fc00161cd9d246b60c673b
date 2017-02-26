@@ -1,0 +1,41 @@
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+
+public class Survey implements ActionListener {
+	 JFrame frame;
+	 JPanel panel;
+	 JButton survey;
+	 JButton calc;
+public static void main(String[] args) {
+	Survey x = new Survey();
+}
+Survey(){
+	frame = new JFrame();
+	frame.setVisible(true);
+	frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
+	frame.setSize(500, 200);
+	
+	panel = new JPanel();
+	
+	survey = new JButton("Survey");
+	calc = new JButton("Calculate");
+	
+	panel.add(calc);
+	panel.add(survey);
+	
+	frame.add(panel);
+	
+	calc.addActionListener(this);
+	survey.addActionListener(this);
+}
+@Override
+public void actionPerformed(ActionEvent e) {
+	// TODO Auto-generated method stub
+	
+}
+}

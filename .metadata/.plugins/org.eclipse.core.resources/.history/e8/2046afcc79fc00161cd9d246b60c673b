@@ -1,0 +1,9 @@
+import java.util.HashMap;
+
+
+public class RosettaStone {
+	HashMap<String, String> rs = new HashMap<String,String>();
+public static void main(String[] args) {
+	
+}
+}

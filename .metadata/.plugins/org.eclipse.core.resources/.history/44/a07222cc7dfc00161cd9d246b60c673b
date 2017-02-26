@@ -1,0 +1,53 @@
+import java.awt.Panel;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.HashMap;
+import java.util.Random;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+
+public class RosettaStone implements ActionListener{
+	HashMap<String, String> rs = new HashMap<String,String>();
+	
+	JFrame frame;
+	JPanel panel;
+	JButton b1;
+public static void main(String[] args) {
+	RosettaStone x = new RosettaStone();
+	
+}
+RosettaStone(){
+	rs.put("Mesa", "Table");
+	frame = new JFrame();
+	frame.setVisible(true);
+	frame.setSize(500, 200);
+	frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
+	
+	panel = new JPanel();
+	
+	b1 = new JButton("Mesa");
+	
+	panel.add(b1);
+	frame.add(b1);
+	b1.addActionListener(this);
+	
+	
+}
+@Override
+public void actionPerformed(ActionEvent e) {
+	if (e.getSource() == b1) {
+		b1.setText("Table");
+	}
+
+
+}
+String getRandomKey(HashMap<String, String> map) {
+	String[] keysAsArray = map.keySet().toArray(new String[0]);
+	int randomness = new Random().nextInt(map.size());
+	return keysAsArray[randomness];
+}
+
+}
